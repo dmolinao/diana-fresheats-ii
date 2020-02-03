@@ -1,3 +1,232 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    background: #a1dae3 url("../media/webpacklogo.png") repeat;
+    background: #8d8bf5;
+    align-content: center;
+    color: #fff;
+    font-family: 'Merriweather', serif;
+}
+
+.logo {
+    display: block;
+    margin: auto;
+}
+
+@media (min-width: 890px){
+    .logo{
+        width: 90vw;
+    }
+}
+
+header {
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+    background-image: url("../media/colorful_salad-FE\ copy.jpg");
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+@media (min-width: 890px){
+    .header {
+        font-size: 15px;
+        font-weight: 5px;
+        width: 90vw;
+    }
+}
+
+.search {
+    font-size: 45px;
+    top: 20px;
+    position: right;
+}
+
+.nav-tabs {
+    font-size: 35px;
+    color: #a1dae3;
+    text-align: center;
+	text-decoration: none;
+    margin: 24px;
+    padding: 3px;
+    display: inline-block;
+}
+
+main {
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media (min-width: 650px){
+    main {
+        font-size: 15px;
+        font-weight: 5px;
+    }
+}
+
+.who-we-are {
+    width: 640px;
+    height: 175px;
+    text-align: center;
+    margin: 4% auto;
+}
+
+.how-it-worx {
+    width: 640px;
+    height: 175px;
+    text-align: center;
+    margin: 4% auto;
+}
+
+.view-our-menu {
+    width: 640px;
+    height: 175px;
+    text-align: center;
+    margin: 4% auto;
+}
+
+.kit-signup {
+    display: flex;
+    color: #8d8bf5;
+}
+
+.kit-signup div {
+    text-align: center;
+    margin: 1px;
+    padding: 1px;
+    border: 1px solid white;
+}
+
+.kit {
+    background-image: url("../media/box-FE\ copy.jpg");
+    background-repeat: no-repeat;
+    height: 225px;
+    margin: 10px auto 5px;
+    text-align: center;
+}
+
+.signup {
+    background-image: url("../media/sign_up-FE.jpg");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    height: 225px;
+    margin: 10px auto 5px;
+    text-align: center;
+}
+
+.meal-plan {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.meal-plan div {
+    text-align: center;
+    display: inline-flexbox;
+}
+
+.guide {
+    background: rgb(228, 148, 119);
+    text-align: center;
+    margin: 1px;
+    padding: 1px;
+    border: 1px solid white;
+}
+
+.benefits {
+    background: rgb(228, 148, 119);
+    text-align: center;
+    margin-top: 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid white;
+}
+
+h4:hover {
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+    padding: 1px;
+    border: 1px solid white;
+}
+
+.lc {
+    background-image: url("../media/rustic_vegan_pizza-FE\ copy.jpg");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    height: 200px;
+    margin: 30px auto 20px;
+    display: block;
+}
+
+.pl {
+    background-image: url("../media/grain_bowl-FE\ copy.jpg");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    height: 200px;
+    margin: 30px auto 20px;
+    display: block;
+}
+
+.gf {
+    background-image: url("../media/zucchini_noodles-FE\ copy.jpg");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    height: 200px;
+    margin: 30px auto 20px;
+    display: block;
+}
+
+.med {
+    background-image: url("../media/tomatoe_toasts-FE\ copy.jpg");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    height: 200px;
+    margin: 30px auto 20px;
+    display: block;
+}
+
+.vg {
+    background-image: url("../media/stuffed_mushrooms-FE\ copy.jpg");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    height: 200px;
+    margin: 30px auto 20px;
+    display: block;
+}
+
+.smt {
+    background-image: url("../media/smoothies-FE\ copy.jpg");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    height: 200px;
+    margin: 30px auto 20px;
+    display: block;
+}
+
+footer {
+    text-align: center;
+}
+
+@media (min-width: 650px){
+    footer {
+        font-size: 15px;
+        font-weight: 5px;
+    }
+}
+
+.social-blog {
+    display: flexbox;
+    position: relative;
+}
+
+.social-blog div {
+    text-align: center;
+    border: 1px solid white;
+}
+p{
+    text-align: center;
 }
